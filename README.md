@@ -11,7 +11,7 @@
 2. Chức năng <br />
 - [chức năng 1]: Chat giữa các Client với nhau sử dụng Socket, In/OutputStream trong java<br />
 - [chức năng 2]: Chia sẻ File giữa 2 Client với nhau thông qua Server <br />
-Client 1 gửi File tới Server, Server đọc và gửi File tới Client 2<br />
+	Cách thức hoạt động: Client 1 gửi File tới Server, Server đọc và gửi File tới Client 2<br />
 <br />
 3. Kiến thức cần tìm hiểu: <br />
 - Java Swing<br />
