@@ -6,3 +6,6 @@ Bắt đầu Client tại Client/LoginForm để vào màn hình đăng nhập<b
 Nhập tên vào ô Tên và bấm Login để bắt đầu Chat và chia sẻ File (Tên không được có khoảng trống hoặc quá 15 ký tự)<br />
 
 Click Menu Chia Sẻ File -> Gửi File, Chọn File và Nhập tên tài khoản người nhận để Gửi file<br />
+
+Tài liệu tham khảo:
+https://www.c-sharpcorner.com/article/how-to-make-a-chat-application-using-sockets-in-java/
