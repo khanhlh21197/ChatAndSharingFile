@@ -12,6 +12,19 @@
 - [chức năng 1]: Chat giữa các Client với nhau sử dụng Socket, In/OutputStream trong java<br />
 - [chức năng 2]: Chia sẻ File giữa 2 Client với nhau thông qua Server <br />
 	Cách thức hoạt động: Client 1 gửi File tới Server, Server đọc và gửi File tới Client 2<br />
+	```
+	InputStream input = socket.getInputStream();
+                                OutputStream sendFile = cSock.getOutputStream();
+                                byte[] buffer = new byte[BUFFER_SIZE];
+                                int cnt;
+                                //send File to Client
+                                while ((cnt = input.read(buffer)) > 0) {
+                                    sendFile.write(buffer, 0, cnt);
+                                }
+                                //xoa bo dem 
+                                sendFile.flush();
+                                sendFile.close();
+	``` <br />
 <br />
 3. Kiến thức cần tìm hiểu: <br />
 - Java Swing<br />
